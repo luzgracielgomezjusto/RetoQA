@@ -12,7 +12,7 @@ Reto de RetoPlaywright, donde se automatiza el inicio de sesión de un usuario y
 1. Clonar el repositorio:
   ***uso del bash
   git clone https://github.com/luzgracielgomezjusto/RetoQA.git
-  cd lg-reto-playwrigth
+  cd RetoQA
 
 2. instalar las dependencias:
     npm install
