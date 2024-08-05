@@ -19,18 +19,20 @@ Reto de RetoPlaywright, donde se automatiza el inicio de sesión de un usuario y
 
 ### Uso: Ejecución de las pruebas
 1. Ejecutar todas las pruebas:
-    npx playwright test
+    npx cucumber-js --format progress-bar
 
 2. Para ejecutar un archivo de caraterísticas especifico:
     npx playwright test tests/features/employee.feature
 
-3. Visualización de las pruebas:
-    Los resultado de la prueba y capturas podemos encontrarlo en el directorio de "test-results".
+4. Visualización de las pruebas:
+    Los resultado de la prueba y capturas podemos encontrarlo en screenshot.png.
 
 #### Estructura del proyecto:
 - "tests/features": Contiene los archivos ".feature" escritos en Gherkin.
 
 - "tests/steps": Contiene los archivos de la implementación de pasos en JavaScript.
+
+- "page-objects": Contiene los archivos de la clase para la interacción con la página de inicio de sesión y la gestión de los empleados
 
 - "playwright.config.js" Archivo de configuración de Playwright.
 
